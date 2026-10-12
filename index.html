@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>claude-pi-backup</title>
+<meta name="description" content="claude-pi-backup: private Anwendung für verschlüsselte Backups eines Raspberry Pi in das eigene Google Drive.">
+<style>
+:root{--bg:#ffffff;--text:#1d1d1f;--muted:#5f5f66;--accent:#c2410c;--border:#e4e4e7}
+@media (prefers-color-scheme:dark){:root{--bg:#121214;--text:#ededf0;--muted:#a1a1aa;--accent:#fb923c;--border:#2e2e33}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font:16px/1.65 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+main{max-width:720px;margin:0 auto;padding:48px 16px 64px}
+h1{font-size:1.9rem;line-height:1.2;margin:0 0 8px}
+h2{font-size:1.15rem;margin:32px 0 8px}
+p,li{color:var(--text)}
+.unter{color:var(--muted);margin:0 0 28px}
+a{color:var(--accent)}
+code{overflow-wrap:anywhere}
+footer{margin-top:40px;padding-top:16px;border-top:1px solid var(--border);color:var(--muted);font-size:.9rem}
+</style>
+</head>
+<body>
+<main>
+<h1>claude-pi-backup</h1>
+<p class="unter">Private Anwendung, kein öffentliches Angebot</p>
+
+<p>claude-pi-backup ist eine private Anwendung. Mit dem Open-Source-Programm rclone sichert sie verschlüsselte Backups meines eigenen Raspberry Pi in mein eigenes Google Drive.</p>
+<ul>
+<li>Es gibt genau einen Nutzer: mich als Inhaber dieser Seite.</li>
+<li>Die Anwendung sieht in Google Drive nur die Dateien, die sie selbst angelegt hat (Bereich <code>drive.file</code>).</li>
+<li>Die Backups werden vor dem Hochladen verschlüsselt. Den Schlüssel hat nur der Inhaber.</li>
+<li>Es gibt keine Registrierung, keine weiteren Nutzer und keine Weitergabe von Daten.</li>
+</ul>
+
+<p><a href="datenschutz.html">Datenschutzerklärung</a></p>
+
+<h2 lang="en">In English</h2>
+<p lang="en">claude-pi-backup is a private, single-user application. It uses rclone to store encrypted backups of my own Raspberry Pi in my own Google Drive. It only accesses files it created itself (scope <code>drive.file</code>) and shares no data with anyone. <a href="datenschutz.html#en">Privacy policy</a></p>
+
+<footer>Stand: 12. Oktober 2026</footer>
+</main>
+</body>
+</html>
